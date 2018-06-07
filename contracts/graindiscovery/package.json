@@ -8,8 +8,7 @@
   "scripts": {
     "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/graindiscovery.bna",
     "pretest": "npm run lint",
-    "lint": "eslint .",
-    "test": "nyc mocha -t 0 test/*.js && cucumber-js"
+    "lint": "eslint ."
   },
   "keywords": [
     "composer",
@@ -27,10 +26,8 @@
     "composer-cucumber-steps": "^0.19.7",
     "chai": "latest",
     "chai-as-promised": "latest",
-    "cucumber": "^2.2.0",
     "eslint": "latest",
     "nyc": "latest",
-    "mkdirp": "latest",
-    "mocha": "latest"
+    "mkdirp": "latest"
   }
 }
