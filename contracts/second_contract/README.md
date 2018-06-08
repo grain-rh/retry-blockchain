@@ -1,3 +1,0 @@
-# graindiscovery
-
-GD
