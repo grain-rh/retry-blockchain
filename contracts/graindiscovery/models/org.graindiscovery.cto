@@ -65,22 +65,6 @@ asset Grain identified by gid {
   
 }
 
-
-
-asset Grain identified by gid {
-  o String grainType
-  o String gid
-  o Double value
-  o ListingState state
-  --> Member owner
-  //Not needed for the demo
-  o Double coords
-  o Double grade
-  o Double quantity
-  o Double price
-  
-}
-
 asset Bid identified by bid{
   o String grainType
   o String bid
